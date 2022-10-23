@@ -1,0 +1,44 @@
+*{
+    margin: 11px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0d0e0f;
+}
+
+h3{
+    text-transform:uppercase;
+    letter-spacing: 9px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #B4A9A3;
+}
+
+h3 > class {
+    text-transform: uppercase;
+    letter-spacing: 135px;
+    color: #f7c873;
+}
+
+id > h3 {
+   text-transform: capitalize;
+   letter-spacing: 10px;
+   font-family: Arial, Helvetica, sans-serif; 
+   color: #B4A9A3;
+}
+
+id > h4{
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    text-align: left;
+    text-justify: inter-word;
+    text-indent: 30px;
+    text-overflow: clip;
+    line-height: 21px;
+    font-family:'Courier New', Courier, monospace;
+    color: #B4A9A3;
+}
+
+input{
+    height: 50px; 
+    width: 400px;
+    box-shadow: 8px 4px 13px black;
+}
