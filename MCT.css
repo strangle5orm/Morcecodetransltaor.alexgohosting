@@ -1,0 +1,100 @@
+*{
+    background-color: #000000;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@font-face{
+    font-family: 'swiss';
+    src: url(SwissGrit.otf)
+}
+
+.header-1{
+    display: flex;
+}
+
+.logo{
+    display: inline-block;
+}
+
+.header-h3{
+    font-family: 'swiss';
+    font-size: small;
+    display: inline-block;
+}
+
+.background-pic{
+    height: 882px;
+    width: 1431px;
+    object-fit: contain;
+}
+
+h3{
+    font-family: 'swiss';
+    text-transform:uppercase;
+    letter-spacing: 9px;
+    color: #adadad;
+}
+
+.latin {
+    font-family: 'swiss';
+    text-transform: uppercase;
+    color: #adadad;
+    letter-spacing: 79px;
+}
+
+.morse {
+    word-spacing: 30px;
+}
+
+.info{
+    width: 40px;
+    height: 10px;
+    color: #adadad;
+}
+
+.how-about-morse h3{
+   font-family: 'swiss';
+   font-size: xx-large;
+   text-transform: capitalize;
+   letter-spacing: 10px; 
+   color: #adadad;
+   text-justify: inter-word;
+   line-height: 0px;
+   margin: 21.555px;
+   padding: 10.555px;
+}
+
+.how-about-morse h4{
+    font-family: 'swiss';
+    font-size: large;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    text-align: left;
+    text-justify: inter-word;
+    text-overflow: clip;
+    line-height: 21px;
+    color: #adadad;
+    margin: 21.555px;
+    padding: 10.555px;
+}
+
+.morse-trans{
+    height: 50px; 
+    width: 400px;
+    box-shadow: 8px 4px 13px black;
+}
+
+div {
+    color: #B4A9A3;
+}
+ 
+.footer{
+    background-color: #1d1d1d;
+    height: 300px;
+}
+
+.footer-txt{
+    display: inline-block;
+}
