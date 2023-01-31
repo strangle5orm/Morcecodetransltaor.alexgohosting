@@ -1,100 +1,94 @@
 *{
     background-color: #000000;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
 }
-
-
 @font-face{
     font-family: 'swiss';
-    src: url(SwissGrit.otf)
+    src: url(../fonts/SwissGrit.otf)
 }
-
-.header-1{
-    display: flex;
+.header{
+    width: 100%;
+    position: fixed;
+    background-color: #2a2a2a;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
 }
-
-.logo{
-    display: inline-block;
+.header:hover{
+    transform: translate(10px);
 }
-
+.h-container{
+    justify-content: space-evenly;
+    max-width: 600px;
+    max-height: 120px;
+    height: 120px;
+	margin: 0;
+}
 .header-h3{
     font-family: 'swiss';
-    font-size: small;
-    display: inline-block;
+    font-size: xx-large;
+    color: #adadad;
 }
-
 .background-pic{
     height: 882px;
     width: 1431px;
     object-fit: contain;
 }
-
 h3{
     font-family: 'swiss';
     text-transform:uppercase;
     letter-spacing: 9px;
     color: #adadad;
 }
-
 .latin {
     font-family: 'swiss';
     text-transform: uppercase;
     color: #adadad;
     letter-spacing: 79px;
 }
-
-.morse {
+.morce {
     word-spacing: 30px;
-}
-
-.info{
-    width: 40px;
-    height: 10px;
-    color: #adadad;
-}
-
-.how-about-morse h3{
-   font-family: 'swiss';
-   font-size: xx-large;
-   text-transform: capitalize;
-   letter-spacing: 10px; 
-   color: #adadad;
-   text-justify: inter-word;
-   line-height: 0px;
-   margin: 21.555px;
-   padding: 10.555px;
-}
-
-.how-about-morse h4{
     font-family: 'swiss';
-    font-size: large;
-    text-transform: lowercase;
-    letter-spacing: 2px;
-    text-align: left;
-    text-justify: inter-word;
-    text-overflow: clip;
-    line-height: 21px;
-    color: #adadad;
-    margin: 21.555px;
-    padding: 10.555px;
 }
-
+.img1{
+    height: 882px;
+    width: 1431px;
+}
+.img3{height: 882px;
+    width: 1431px;
+}
+#imgid:target{
+    border: 2px white;
+    scroll-behavior: smooth;
+}
 .morse-trans{
     height: 50px; 
     width: 400px;
     box-shadow: 8px 4px 13px black;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
 }
-
+.morse-trans:hover{
+    transform: translateY(-10px);
+}
 div {
     color: #B4A9A3;
 }
- 
 .footer{
+    font-family: 'swiss';
     background-color: #1d1d1d;
-    height: 300px;
+    padding: 70px 0;
+}
+.container{
+    max-width: 1170px;
+	margin:auto;
 }
 
-.footer-txt{
-    display: inline-block;
-}
+
+
+
